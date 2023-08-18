@@ -1,0 +1,10 @@
+defaultNamespace: k10
+
+helm:
+  chart: k10
+  repo: https://partner-charts.rancher.io/
+  releaseName: k10
+  version: 5.5.801
+
+dependsOn:
+  - name: kasten-k10-demo-kasten-k10-demo-longhorn
